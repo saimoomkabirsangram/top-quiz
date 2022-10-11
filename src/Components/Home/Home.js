@@ -12,7 +12,7 @@ const Home = () => {
                             <span>Best Part Of Problem-Solving:</span>
                             <span className="font-bold text-lg">TopQuiz</span>
                         </div>
-                        <a href="#" rel="noreferrer noopener" className="px-5 mt-4 lg:mt-0 py-3 border-2 border-black">See More</a>
+                        <a href="#" rel="noreferrer noopener" className="px-4 mt-4 lg:mt-0 py-2 border-2 rounded-3xl border-black">Go For A Trip</a>
                     </div>
                 </div>
             </div>
