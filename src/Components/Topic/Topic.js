@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Topic = ({LodeQuiz}) => {
-    console.log(LodeQuiz);
+    // console.log(LodeQuiz);
     return (
         <div>
            <div className=' font-bold  rounded-xl p-3 bg-zinc-600 text-gray-100'>
