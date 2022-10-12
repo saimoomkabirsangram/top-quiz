@@ -4,6 +4,8 @@ import Main from './Components/Main/Main';
 import Blog from './Components/Blog/Blog';
 import Home from './Components/Home/Home';
 import Quiz from './Components/Quiz/Quiz';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 function App() {
   const router = createBrowserRouter([

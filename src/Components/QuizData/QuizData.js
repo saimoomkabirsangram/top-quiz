@@ -4,17 +4,17 @@ import Quiz from '../Quiz/Quiz';
 
 function QuizData({quizData}) {
     // console.log(quizData);
-    const {options, correctAnswer, id, question} = quizData;
+    const {correctAnswer, id, question} = quizData;
     return (
         <div className='bg-gray-200 p-3 rounded-lg'>
             <div> Question : {question}
             </div>
             {
-                quizData.options.map((item) => <QuestionData
-                    key={item.id}
+                quizData.options.map((option) => <QuestionData
+                    key={option.id}
                     id={id}
                     correctAnswer={correctAnswer}
-                    options={options}
+                    option={option}
                 ></QuestionData>)}
         </div>
     );
